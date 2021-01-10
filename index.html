@@ -3,33 +3,41 @@
   <head>
     <meta charset="utf-8">
     <title>Keisuke Kondo</title>
+    <meta name="description" content="Keisuke Kondo is a senior fellow of the Research Institute of Economy, Trade and Industry (RIETI) in Japan."/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <link rel="stylesheet" href="css/bootstrap.css" media="screen">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/custom.css">
     <script src="https://kit.fontawesome.com/420d187274.js" crossorigin="anonymous"></script>
-    <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/popper.min.js"></script>
   </head>
 
   <!-- BODY START -->
   <body>
     <!-- NAVBAR START -->
-    <div class="navbar navbar-expand-lg fixed-top navbar-dark bg-primary">
-      <div class="container">
-        <a href="./index.html" class="navbar-brand">Keisuke Kondo</a>
-        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-          <ul class="nav navbar-nav">
-            <li>
-              <a href="https://github.com/keisukekondokk">
-                <span style="color: #ffffff" class="fa fa-github fa-2x"></span>
-              </a>
-            </li>
-          </ul>
-        </div>
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-primary">
+      <a class="navbar-brand" href="./index.html">Keisuke Kondo</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+      <div class="navbar-nav mr-auto">
+        <a class="nav-item nav-link" href="cv.html">CV</a>
+        <a class="nav-item nav-link" href="research.html">Research</a>
+        <a class="nav-item nav-link" href="software.html">Software</a>
+        <a class="nav-item nav-link" href="data.html">Data</a>
+        <a class="nav-item nav-link" href="teaching.html">Teaching</a>
       </div>
-    </div>
+      <div class="navbar-nav ml-auto">
+        <a class="nav-item nav-link" href="https://github.com/keisukekondokk">
+          <span class="fa fa-github fa-2x"></span>
+        </a>
+      </div>
+      </div>
+    </nav>
     <!-- NAVBAR END -->
 
     <!-- MAIN START -->
@@ -37,7 +45,6 @@
 
       <!-- BOX START -->
       <div class="bs-docs-section">
-
         <div class="row">
           <div class="col-lg-12">
             <div class="bs-component">
@@ -49,51 +56,51 @@
                 <hr class="my-4">
                 <p>My detailed infomation is available from my webpage of Google Site.</p>
                 <p class="lead">
-                  <a class="btn btn-primary btn-lg" href="https://sites.google.com/site/keisukekondokk/" role="button">View more info</a>
-                  <a class="btn btn-primary btn-lg" href="https://www.rieti.go.jp/en/" role="button">Visit RIETI web</a>
+                  <a class="btn btn-primary btn-lg" href="https://sites.google.com/site/keisukekondokk/" role="button" target="_blank">View more info</a>
+                  <a class="btn btn-primary btn-lg" href="https://www.rieti.go.jp/en/" role="button" target="_blank">Visit RIETI web</a>
                 </p>
               </div>
             </div>
           </div>
         </div>
-
       </div>
       <!-- BOX END -->
 
       <!-- CARD START -->
       <div class="row">
-        <div class="col-lg-12">
-          <div class="card mb-3">
+        <div class="col-lg-6">
+            <!-- CARD START -->
+            <div class="card mb-3">
             <h2 class="card-header"><span class="fas fa-hand-point-right"></span> Featured Research</h2>
             <a href="https://www.medrxiv.org/content/10.1101/2020.12.28.20248926v1" target="_blank"><img style="height: auto; width: 100%; display: block;" src="img/spatial-seir.svg" alt="Card image"></a>
             <div class="card-body">
               <h4 class="card-title">Simulating the Impacts of Interregional Mobility Restriction on the Spatial Spread of COVID-19 in Japan (Keisuke Kondo)</h4>
               <p class="card-text">This study develops a spatial Susceptible–Exposed–Infectious–Recovered (SEIR) model that analyzes the effect of interregional mobility on the spatial spread of the coronavirus disease 2019 (COVID-19) outbreak in Japan. National and local governments have requested that residents refrain from traveling between 47 prefectures during the state of emergency. However, the extent to which restricting the interregional mobility prevents infection expansion has not been elucidated. Our spatial SEIR model describes the spatial spread pattern of COVID-19 when people commute to a prefecture where they work or study during the daytime and return to their residential prefecture at night. We assume that people are exposed to infection risk during their daytime activities. According to our simulation results, interregional mobility restriction can prevent geographical expansion of the infection. However, in prefectures with many infectious individuals, residents are exposed to higher infection risk when their mobility is restricted. Our simulation results also show that interregional mobility restriction plays a limited role in reducing the national total number of infected individuals.</p>
               <p class="card-text">Preprint at medRxiv (2020). <a href="https://doi.org/10.1101/2020.12.28.20248926" target="_blank">https://doi.org/10.1101/2020.12.28.20248926</a></p>
+              <p class="card-text">Explanation (in Japanese). <a href="doc/research/20e089_slide.pdf" target="_blank">Slide (PDF)</a></p>
             </div>
             <div class="card-footer text-muted">
               Update: January 8, 2021
             </div>
           </div>
         </div>
-      </div>
-      <!-- CARD END -->
-
-      <!-- CARD START -->
-      <div class="row">
-        <div class="col-lg-12">
+        <!-- CARD END -->
+        <!-- CARD START -->
+        <div class="col-lg-6">
           <div class="card mb-3">
-            <h2 class="card-header"><span class="fas fa-tachometer-alt"></span> Shiny App: COVID-19 Simulator in Japan (beta version)</h2>
+            <h2 class="card-header"><span class="fas fa-tachometer-alt"></span> Shiny App</h2>
             <a href="https://keisuke-kondo.shinyapps.io/covid19-simulator-japan/" target="_blank"><img style="height: auto; width: 100%; display: block;" src="img/covid19-simulator-japan.png" alt="Card image"></a>
             <div class="card-body">
+              <h4 class="card-title">COVID-19 Simulator in Japan (beta version)</h4>
               <p class="card-text">This shiny app visualizes simulation results of the spatial spread of COVID-19 obtained from the spatial SEIR model with interregional mobility in Japan. See Kondo (2020) for more details.</p>
-                            <p class="card-text">Kondo, K. Simulating the Impacts of Interregional Mobility Restriction on the Spatial Spread of COVID-19 in Japan. Preprint at medRxiv (2020). <a href="https://doi.org/10.1101/2020.12.28.20248926" target="_blank">https://doi.org/10.1101/2020.12.28.20248926</a></p>
+              <p class="card-text">Kondo, K. Simulating the Impacts of Interregional Mobility Restriction on the Spatial Spread of COVID-19 in Japan. Preprint at medRxiv (2020). <a href="https://doi.org/10.1101/2020.12.28.20248926" target="_blank">https://doi.org/10.1101/2020.12.28.20248926</a></p>
             </div>
             <div class="card-footer text-muted">
               Update: December 26, 2020
             </div>
           </div>
         </div>
+        <!-- CARD END -->
       </div>
       <!-- CARD END -->
       

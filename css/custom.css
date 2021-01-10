@@ -1,9 +1,16 @@
 body {
   padding-top: 120px;
+  overflow-y: scroll;
 }
 
 .navbar-brand {
-  font-size: 28px;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.navbar .navbar-nav .nav-link {
+  font-size: 18px;
+  color: white;
 }
 
 #footer {
