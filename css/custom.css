@@ -13,6 +13,14 @@ body {
   color: white;
 }
 
+table {
+  counter-reset: serial-number;
+}
+table tr td:first-child:before {
+    counter-increment: serial-number;
+    content: counter(serial-number);
+}
+
 #footer {
   margin-top: 50px;
 }
