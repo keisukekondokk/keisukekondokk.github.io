@@ -83,6 +83,7 @@ h2 span {
   width: 90px;
   height: 90px;
   text-decoration: none;
+  z-index: 100;
 }
 
 #page-top a::before{
@@ -100,6 +101,7 @@ h2 span {
   left: 0;
   margin: auto;
   text-align: center;
+  z-index: 100;
 }
 
 #page-top a::after{
@@ -113,4 +115,5 @@ h2 span {
   left: 0;
   margin: auto;
   text-align: center;
+  z-index: 100;
 }
