@@ -1,5 +1,5 @@
 body {
-  padding-top: 120px;
+  padding-top: 100px;
   overflow-y: scroll;
 }
 
@@ -56,7 +56,7 @@ a.page-anchor{
   font-weight: 900;
   content: '\f0aa';
   font-size: 25px;
-  color: #ffffff;
+  color: #FFFFFF;
   position: absolute;
   width: 25px;
   height: 25px;
@@ -71,7 +71,7 @@ a.page-anchor{
 #page-top a::after{
   content: 'PAGE TOP';
   font-size: 13px;
-  color: #ffffff;
+  color: #FFFFFF;
   position: absolute;
   top: 45px;
   bottom: 0;
