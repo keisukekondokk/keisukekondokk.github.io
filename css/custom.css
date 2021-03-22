@@ -1,5 +1,4 @@
 body {
-  padding-top: 100px;
   overflow-y: scroll;
 }
 
@@ -11,6 +10,10 @@ body {
 .navbar .navbar-nav .nav-link {
   font-size: 18px;
   color: white;
+}
+
+.navbar {
+  margin-bottom: 20px;
 }
 
 table {
