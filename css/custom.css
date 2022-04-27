@@ -2,6 +2,10 @@ body {
   overflow-y: scroll;
 }
 
+.container {
+  padding-top: 60px;
+}
+
 .navbar-brand {
   font-size: 20px;
   font-weight: bold;
@@ -13,9 +17,10 @@ body {
 }
 
 .navbar {
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
   margin-bottom: 15px;
+  box-shadow: 0px 8px 8px -6px rgba(0,0,0,.5);
 }
 
 table {
@@ -29,8 +34,8 @@ table tr td:first-child:before {
 
 a.page-anchor{
     display: block;
-    padding-top: 100px;
-    margin-top: -100px;
+    padding-top: 70px;
+    margin-top: -70px;
 }
 
 #footer {
