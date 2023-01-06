@@ -118,11 +118,12 @@ a.page-anchor{
 
 .list-group {
   display: grid !important;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   grid-gap: 0;
 }
 
 .list-group-item {
   background: #F7F7F7;
   text-align: center;
+  font-weight: bold;
 }
