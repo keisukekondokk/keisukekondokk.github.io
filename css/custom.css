@@ -116,7 +116,18 @@ a.page-anchor{
   text-align: center;
 }
 
-.list-group {
+.list-group#toc2c {
+  display: grid !important;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 0;
+}
+.list-group#toc3c {
+  display: grid !important;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 0;
+}
+
+.list-group#toc4c{
   display: grid !important;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 0;
