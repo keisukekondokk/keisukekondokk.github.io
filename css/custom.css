@@ -1,9 +1,6 @@
 body {
   overflow-y: scroll;
-}
-
-.container {
-  padding-top: 60px;
+  padding-top: 55px;
 }
 
 .navbar-brand {
@@ -64,7 +61,6 @@ a.page-anchor{
 }
 
 #footer {
-  margin-top: 30px;
 }
 
 #page-top{
