@@ -16,7 +16,7 @@ URL(jp): https://www.rieti.go.jp/jp/index.html
 ## Contact
 Keisuke Kondo  
 Senior Fellow, Research Institute of Economy, Trade and Industry  
+Associate Professor (cross appointment), Research Institute for Economics and Business Administration, Kobe University
 Email: kondo-keisuke@rieti.go.jp  
 URL: https://keisukekondokk.github.io/  
-URL: https://sites.google.com/site/keisukekondokk/  
 (It may take some time to respond to your inquiry.)  
