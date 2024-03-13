@@ -60,8 +60,8 @@ table tr td:first-child:before {
 
 a.page-anchor{
     display: block;
-    padding-top: 70px;
-    margin-top: -70px;
+    padding-top: 50px;
+    margin-top: -50px;
 }
 
 #footer {
