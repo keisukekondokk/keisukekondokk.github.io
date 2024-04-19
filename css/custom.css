@@ -1,9 +1,17 @@
+html {
+  min-height: 100vh;
+}
+
 body {
   overflow-y: scroll;
   padding-top: 55px;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+}
+
+footer {
+  margin-top: auto;
 }
 
 .navbar-brand {
