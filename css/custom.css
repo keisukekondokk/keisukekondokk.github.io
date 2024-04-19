@@ -15,12 +15,23 @@ footer {
 }
 
 .navbar-brand {
-  font-size: 22px;
+  font-size: 18px;
   font-weight: bold;
 }
 
 .navbar .navbar-nav .nav-link {
-  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+.navbar-nav#navbar-center {
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+}
+
+.navbar-nav#navbar-right {
+  font-size: 18px;
   font-weight: bold;
   color: white;
 }
