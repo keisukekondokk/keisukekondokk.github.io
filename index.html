@@ -19,6 +19,7 @@
     <script src="./js/popper.min.js"></script>
     <script>
       $(function() {
+        $("#header").load("./parts/header.html");
         $("#footer").load("./parts/footer.html");
       });
     </script>
@@ -28,45 +29,7 @@
   <body class="bg-light">
 
     <!-- HEADER START -->
-    <header>
-      <!-- NAVBAR START -->
-      <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
-        <a class="navbar-brand" href="./index.html">Keisuke Kondo</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarText">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item"><a class="nav-link" href="./cv/index.html">CV</a></li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="./research/index.html" id="navbarDropdownResearch" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Research</a>
-              <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdownResearch">
-                <li><a class="dropdown-item" href="./research/index.html#works-in-progress">Works in Progress</a></li>
-                <li><a class="dropdown-item" href="./research/index.html#publications">Publications</a></li>
-                <li><a class="dropdown-item" href="./research/index.html#book-chapter">Book Chapters</a></li>
-                <li><a class="dropdown-item" href="./research/index.html#presentations">Presentations</a></li>
-              </ul>
-            </li>
-            <li class="nav-item"><a class="nav-link" href="./media/index.html">Media</a></li>
-            <li class="nav-item"><a class="nav-link" href="./software/index.html">Software</a></li>
-            <li class="nav-item"><a class="nav-link" href="./webapp/index.html">Web App</a></li>
-            <li class="nav-item"><a class="nav-link" href="./data/index.html">Data</a></li>
-            <li class="nav-item"><a class="nav-link" href="./teaching/index.html">Teaching</a></li>
-          </ul>
-        <div class="navbar-nav ml-auto">
-          <a class="nav-item nav-link" href="https://researchmap.jp/keisukekondokk" target="_blank">
-            <span class="fa fa-play"></span> researchmap
-          </a>
-          <a class="nav-item nav-link" href="https://orcid.org/0000-0002-1613-907X" target="_blank">
-            <span class="fa-brands fa-orcid"></span> ORCID
-          </a>
-          <a class="nav-item nav-link" href="https://github.com/keisukekondokk/keisukekondokk.github.io" target="_blank">
-            <span class="fa fa-github"></span> GitHub
-          </a>
-        </div>
-        </div>
-      </nav>
-      <!-- NAVBAR END -->
+    <header id="header">
     </header>
     <!-- HEADER END -->
 
@@ -150,7 +113,7 @@
                   <!-- ITEM START -->
                   <h4 class="border-bottom border-primary my-1 py-1"><span class="badge text-white bg-primary">RIETI Policy Discussion Paper</span> <small>April 19, 2024</small></h4>
                   <p>
-                    <b>A proposal for a regional attractiveness index based on human flow data.</b> (Kondo, K.). <a href="https://www.rieti.go.jp/jp/publications/summary/24040013.html" target="_blank">RIETI Policy Discussion Paper No. 24-P-005</a>, in Japanese, (2024)
+                    <b>A proposal for a regional attractiveness index based on human flow data.</b> (Kondo, K.). <a href="https://www.rieti.go.jp/jp/publications/summary/24040013.html" target="_blank">RIETI Policy Discussion Paper No. 24-P-005</a>, (Japanese) (2024)
                   </p>
                   <!-- ITEM END -->
 
