@@ -25,12 +25,6 @@
     <script src="./js/jquery-3.5.1.min.js"></script>
     <script src="./js/bootstrap.min.js"></script>
     <script src="./js/popper.min.js"></script>
-    <script>
-      $(function() {
-        $("#header").load("./parts/header.html");
-        $("#footer").load("./parts/footer.html");
-      });
-    </script>
   </head>
 
   <!-- BODY START -->
@@ -40,7 +34,82 @@
     <div class="container-fluid bg-white pt-2 pb-5" style="flex: 1;">
 
       <!-- HEADER START -->
-      <header id="header">
+      <header>
+
+        <!-- NAVBAR START -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+
+          <!-- LOGO START -->
+          <a class="navbar-brand" href="https://keisukekondokk.github.io/">Keisuke Kondo</a>
+          <!-- LOGO END -->
+
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <!-- MENU START -->
+          <div class="collapse navbar-collapse" id="navbarText">
+
+            <!-- MENU START -->
+            <ul class="navbar-nav ml-auto pr-5" id="navbar-center">
+              <li class="nav-item"><a class="nav-link" href="https://keisukekondokk.github.io/cv/index.html">CV</a></li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="https://keisukekondokk.github.io/research/index.html" id="navbarDropdownResearch" role="button" aria-haspopup="true" aria-expanded="false">Research</a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownResearch">
+                  <li><a class="dropdown-item px-2" href="https://keisukekondokk.github.io/research/index.html#works-in-progress"><b>Works in Progress</b></a></li>
+                  <li><a class="dropdown-item px-2" href="https://keisukekondokk.github.io/research/index.html#publications"><b>Publications</b></a></li>
+                  <li><a class="dropdown-item px-2" href="https://keisukekondokk.github.io/research/index.html#book-chapter"><b>Book Chapters</b></a></li>
+                  <li><a class="dropdown-item px-2" href="https://keisukekondokk.github.io/research/index.html#presentations"><b>Presentations</b></a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="https://keisukekondokk.github.io/media/index.html" id="navbarDropdownMedia" role="button" aria-haspopup="true" aria-expanded="false">Media</a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMedia">
+                  <li><a class="dropdown-item px-2" href="https://keisukekondokk.github.io/media/index.html#rieti"><b>RIETI</b></a></li>
+                  <li><a class="dropdown-item px-2" href="https://keisukekondokk.github.io/media/index.html#vox"><b>VOX</b></a></li>
+                  <li><a class="dropdown-item px-2" href="https://keisukekondokk.github.io/media/index.html#magazine"><b>Articles in Magazines</b></a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="https://keisukekondokk.github.io/software/index.html" id="navbarDropdownSoftware" role="button" aria-haspopup="true" aria-expanded="false">Software</a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownSoftware">
+                  <li><a class="dropdown-item px-2" href="https://keisukekondokk.github.io/software/index.html#stata"><b>Stata</b></a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="https://keisukekondokk.github.io/webapp/index.html" id="navbarDropdownWebapp" role="button" aria-haspopup="true" aria-expanded="false">Web App</a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownWebapp">
+                  <li><a class="dropdown-item px-2" href="https://keisukekondokk.github.io/webapp/index.html#shinyapp"><b>Shiny App</b></a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="https://keisukekondokk.github.io/data/index.html" id="navbarDropdownData" role="button" aria-haspopup="true" aria-expanded="false">Data</a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownData">
+                  <li><a class="dropdown-item px-2" href="https://keisukekondokk.github.io/data/index.html#municipalcode"><b>Municipal Code</b></a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="https://keisukekondokk.github.io/teaching/index.html" id="navbarDropdownTeaching" role="button" aria-haspopup="true" aria-expanded="false">Teaching</a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownTeaching">
+                  <li><a class="dropdown-item px-2" href="https://keisukekondokk.github.io/teaching/index.html#2020"><b>2020</b></a></li>
+                  <li><a class="dropdown-item px-2" href="https://keisukekondokk.github.io/teaching/index.html#2019"><b>2019</b></a></li>
+                  <li><a class="dropdown-item px-2" href="https://keisukekondokk.github.io/teaching/index.html#2018"><b>2018</b></a></li>
+                </ul>
+              </li>
+            </ul>
+            <!-- MENU END -->
+
+            <!-- MENU START -->
+            <ul class="navbar-nav ml-auto" id="navbar-right">
+              <li><a class="nav-item nav-link" href="https://github.com/keisukekondokk/keisukekondokk.github.io" target="_blank"><span class="fa fa-github"></span> GitHub</a></li>
+            </ul>
+            <!-- MENU END -->
+
+          </div>
+          <!-- MENU END -->
+        </nav>
+        <!-- NAVBAR END -->
+
       </header>
       <!-- HEADER END -->
 
@@ -201,6 +270,26 @@
 
         <!-- FOOTER START -->
         <footer id="footer">
+
+          <!-- ROW START -->
+          <div class="row text-center ">
+            <div class="col-lg-12 px-1">
+              <ul class="list-inline mb-0">
+                <li class="list-inline-item font-weight-bold">&copy; 2020-2024 Keisuke Kondo</li>
+                <li class="list-inline-item font-weight-bold"><a href="https://keisukekondokk.github.io/contact/index.html"><span class="fa fa-address-card"></span> Contact</a></li>
+                <li class="list-inline-item font-weight-bold"><a href="https://keisukekondokk.github.io/terms-of-use/index.html"><span class="fa fa-file-lines"></span> Terms of Use</a></li>
+                <li class="list-inline-item font-weight-bold"><a href="https://keisukekondokk.github.io/privacy-policy/index.html"><span class="fa fa-circle-info"></span> Privacy Policy</a></li>
+              </ul>
+              <ul class="list-inline mb-0">
+                <li class="list-inline-item">Based on <a href="https://getbootstrap.com" rel="nofollow" target="_blank"><span class="fab fa-bootstrap"></span> Bootstrap</a>. </li>
+                <li class="list-inline-item">Theme Flatly from <a href="https://bootswatch.com/" rel="nofollow" target="_blank">Bootswatch</a>. </li>
+                <li class="list-inline-item">Icons from <a href="https://fontawesome.com/" rel="nofollow" target="_blank"><span class="fab fa-font-awesome"></span> Font Awesome</a>.</li>
+                <li class="list-inline-item">Image viewer from <a href="https://lokeshdhakar.com/projects/lightbox2/" rel="nofollow" target="_blank">Lightbox2</a>.</li>
+              </ul>
+            </div>
+          </div>
+          <!-- ROW END -->
+
         </footer>
         <!-- FOOTER END -->
 
