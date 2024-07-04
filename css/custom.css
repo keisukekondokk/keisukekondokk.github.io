@@ -4,7 +4,7 @@ html {
 
 body {
   overflow-y: scroll;
-  padding-top: 55px;
+  padding-top: 50px;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
